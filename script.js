@@ -10,7 +10,6 @@ for(const el of bindElements) {
         bindMap[bindTo] = []
     }
     bindMap[bindTo].push(el)
-    console.log(bindMap)
 }
 
 function bindValue(bindingName, value) {
